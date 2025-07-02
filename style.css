@@ -15,14 +15,34 @@ body {
 
 }
 
+.night {
+    background-color: rgb(63, 140, 204);
+    color: azure;
+}
+
+#dark {
+    padding: 10px 15px;
+    display: flex;
+    background-color: rgba(61, 183, 224, 0.368);
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow:0 4px 10px rgba(215, 105, 255, 0.373);
+}
+#dark:hover{
+    background-color: rgba(30, 0, 255, 0.493)
+}
+
 .container {
     border: 1px solid rgba(0, 0, 0, 0.625);
     padding: 20px;
     width: 100%;
     max-width: 500px;
     height: 500px;
-    margin-top: 20px;
-    box-shadow: 0 0 12px rgba(105, 198, 255, 0.167);
+    margin-top: 5px;
     border-radius: 10px;
 }
 
@@ -47,7 +67,7 @@ body {
     gap: 5px;
     margin-bottom: 10px;
 }
-.input{
+#input{
     width: 450px;
 }
 .box03{
@@ -61,4 +81,5 @@ body {
 }
 .container:hover{
     transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(105, 198, 255, 0.256);
 }
