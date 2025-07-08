@@ -16,3 +16,21 @@ function darkmode() {
 };
 
 //show or hide no hide message
+
+// Add items on btnclick 
+btnadd.addEventListener('click', addTask)
+function addTask() {
+    const text = input.value.trim();
+    if (text !== "") return;
+
+    const li =
+        document.createElement("li");
+    const span =
+        document.createElement(span);
+    span.innerText = tasktext;
+
+    span.onclick = () => {
+        li.classList.toggle("done");
+    };
+
+}

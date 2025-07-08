@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(249, 249, 250);
+    background-color: rgba(179, 221, 251, 0.57);
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -69,7 +69,15 @@ body {
 }
 #input{
     width: 450px;
+    height: 30px;
+    border-radius: 4px;
+    padding-inline-start: 5px;
 }
+
+.ul{
+    padding: 0;
+}
+
 .box03{
     display: flex;
     justify-content: space-between;
@@ -81,5 +89,5 @@ body {
 }
 .container:hover{
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(105, 198, 255, 0.256);
+    box-shadow: 0 6px 12px rgba(105, 198, 255, 0.382);
 }
