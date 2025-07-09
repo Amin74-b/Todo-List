@@ -21,7 +21,7 @@ function darkmode() {
 btnadd.addEventListener('click', addTask)
 function addTask() {
     const text = input.value.trim();
-    if (text !== "") return;
+    if (text === "") return;
 
     const li =
         document.createElement("li");
